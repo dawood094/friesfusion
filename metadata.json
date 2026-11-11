@@ -1,0 +1,6 @@
+{
+  "name": "Fries Fusion | Freshness Meets Crunch!",
+  "description": "Official website for Fries Fusion. Premium frozen fries for homes, cafes, restaurants, fast food businesses, and wholesale supply in Karachi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

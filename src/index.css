@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-heading: "Outfit", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-brand-brown: #25130A;
+  --color-brand-cream: #FBF7EE;
+  --color-brand-yellow: #F4B316;
+  --color-brand-orange: #E27D18;
+  --color-brand-red: #D9381E;
+  --color-brand-whatsapp: #25D366;
+}
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #FBF7EE;
+    color: #25130A;
+    overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  .dark body,
+  body.dark {
+    background-color: #120905;
+    color: #FDF9F0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Outfit", sans-serif;
+  }
+}

@@ -1,4 +1,6 @@
+
 import React, { useState } from "react";
+import friesCrispy from "../assets/images/fries_crispy_golden_hero_1794427598894.jpg";
 import {
   MessageCircle,
   ArrowRight,
@@ -122,7 +124,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <div className="relative flex items-center justify-between pb-4 border-b border-[#25130A]/8 dark:border-white/10">
                     <div className="flex items-center gap-3">
                       <img
-                        src="/public/assets/aistudio/removebg_a172558d.png"
+                        src="/assets/aistudio/removebg_a172558d.png"
                         alt="Fries Fusion Mascot Emblem"
                         className="w-14 h-14 sm:w-16 sm:h-16 object-contain drop-shadow-md group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300"
                         referrerPolicy="no-referrer"
@@ -144,7 +146,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   {/* Mouthwatering Golden Serving Showcase Image */}
                   <div className="relative mt-5 rounded-2xl overflow-hidden border border-[#25130A]/10 dark:border-white/10 shadow-md group/img aspect-16/10">
                     <img
-                      src="/src/assets/images/fries_crispy_golden_hero_1794427598894.jpg"
+                      src={friesCrispy}
                       alt="Golden Crispy Fried Fries Batch"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover/img:scale-108"
                       referrerPolicy="no-referrer"

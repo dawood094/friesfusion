@@ -1,3 +1,11 @@
+import friesCrispy from "../assets/images/fries_crispy_golden_hero_1794427598894.jpg";
+
+import friesLoaded from "../assets/images/fries_loaded_gourmet_1794427600055.jpg";
+
+import friesCommercial from "../assets/images/fries_commercial_fryer_1794427599946.jpg";
+
+import friesCafe from "../assets/images/fries_cafe_restaurant_spread_1794427600462.jpg";
+
 export interface Product {
   id: string;
   code: string;
@@ -43,7 +51,7 @@ export const PRODUCTS: Product[] = [
     cut: "Classic Regular Cut",
     packaging: "1kg Quick Frozen Pouch",
     image: "/assets/aistudio/regular_e9acc99d.jpg",
-    prepImage: "/src/assets/images/fries_crispy_golden_hero_1794427598894.jpg",
+    prepImage: friesCrispy,
     tagline: "The timeless golden crunch for every craving.",
     description:
       "Selected from high-starch potatoes and precision cut for that quintessential balance of a crisp, golden exterior and a fluffy potato interior. Quick-frozen to seal in fresh potato flavor and deliver uniform frying results batch after batch.",
@@ -75,7 +83,7 @@ export const PRODUCTS: Product[] = [
     cut: "Thick Cut (9x9 mm)",
     packaging: "1kg Quick Frozen Pouch",
     image: "/assets/aistudio/mmfries_214c8b9f.jpg",
-    prepImage: "/src/assets/images/fries_loaded_gourmet_1794427600055.jpg",
+    prepImage: friesLoaded,
     tagline: "Sturdy, thick cut built for loaded fries and gourmet burgers.",
     description:
       "Engineered for high heat retention and heavy toppings. The 9x9mm thick cut gives you maximum potato meatiness, an ultra-sturdy crunch that holds its bite under hot melted cheese, sauces, gravies, and loaded gourmet toppings.",
@@ -115,25 +123,25 @@ export const GALLERY_ITEMS = [
   {
     title: "Golden Crispy Serving",
     category: "Culinary Presentation",
-    image: "/src/assets/images/fries_crispy_golden_hero_1794427598894.jpg",
+    image: friesCrispy,
     description: "Freshly prepared fries with sea salt and dipping sauce.",
   },
   {
     title: "Loaded Gourmet Fries",
     category: "Cafe & Restaurant Style",
-    image: "/src/assets/images/fries_loaded_gourmet_1794427600055.jpg",
+    image: friesLoaded,
     description: "Hearty 9mm cut fries topped with melted cheddar and fresh garnish.",
   },
   {
     title: "Commercial Fryer Preparation",
     category: "Kitchen Service",
-    image: "/src/assets/images/fries_commercial_fryer_1794427599946.jpg",
+    image: friesCommercial,
     description: "Lifting fresh, golden batch in high-volume food service kitchen.",
   },
   {
     title: "Cafe Dining Spread",
     category: "Hospitality & Dine-in",
-    image: "/src/assets/images/fries_cafe_restaurant_spread_1794427600462.jpg",
+    image: friesCafe,
     description: "The ideal burger and fries companion for cafes and casual eateries.",
   },
 ];

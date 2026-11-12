@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import commercialFryer from "../assets/images/fries_commercial_fryer_1794427599946.jpg";
+import cafeSpread from "../assets/images/fries_cafe_restaurant_spread_1794427600462.jpg";
 import {
   MessageCircle,
   Building2,
@@ -152,7 +154,7 @@ export const WholesalePage: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-lg border border-[#321B12]/10 dark:border-[#381E10]">
           <img
-            src="/src/assets/images/fries_commercial_fryer_1794427599946.jpg"
+            src={commercialFryer}
             alt="Commercial Fryer Basket Action"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -169,7 +171,7 @@ export const WholesalePage: React.FC = () => {
 
         <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-lg border border-[#321B12]/10 dark:border-[#381E10]">
           <img
-            src="/src/assets/images/fries_cafe_restaurant_spread_1794427600462.jpg"
+            src={cafeSpread}
             alt="Cafe Dining Spread with Loaded Fries"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
